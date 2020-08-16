@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>herkansing 1.4</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://vjs.zencdn.net/7.8.3/video-js.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <nav><a href="#"id="about">About</a></nav>
+            <nav><a href="#"id="pricing">Pricing</a></nav>
+            <nav><a href="#"id="contact">Contact</a></nav></div>
+            <div class="logo">
+                <img src="img/netflix.png" alt="logo">
+            </div>
+            <div class="clear"></div>
+
+            <div class="login">
+                <img src="img/Group 26@2x.png" alt="login">
+                <p>LOGIN</p>
+            </div>
+            <div class="headtext">
+            <h1>A NETFLIX ORIGINAL</h1>
+            <h2>Something strange is happening in Hawkins</h2>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+                <button id="try">TRY FREE</button>
+                <img id="hero" src="img/trailer hero img@2x.png" alt="strangerthings">
+                <button id="kijk-trailer"></button>
+                
+<script>
+
+
+</script>
+
+            </div>
+                <div class="clear"></div>
+
+                <div id="myModal" class="modal">
+                <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="playbuttons">
+                        <img class="pause" src="img/pause btn@2x.png" alt="pause">
+                        <img class="forward" src="img/forward btn@2x.png" alt="forward">
+                    </div>
+                        <video id="trailervid"> 
+                                <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+                              </video>
+                              
+
+                      </div>
+                    </div>
+
+        
+    </header>
+    <main>
+        <div class="maintext">
+        <p>Stop doing stuff, start watching</p>
+        <h2>200+ of the best shows,
+                waiting to be watched</h2>
+                <div id="video1">
+                <div id="knoppen" class="afspeelknoppen1">
+                        <div id="vooruitspoelen" class="spoelknop">
+                            <img src="img/forward btn@2x.png" alt="forward">
+                        </div>
+                        <div id="afspelen" class="playknop">
+                            <img src="img/playbtn@2x.png" alt="play">
+                        </div>
+                       
+                        </div>    
+    <video 
+    id="trailer1"
+    class="video-js"
+    preload="auto"
+    width="625"
+    height="400"
+    poster="img/dark.jpg"
+    data-setup="{}"
+  >
+  <source src="//vjs.zencdn.net/v/oceans.mp4" id='oceans.mp4' type="video/mp4" />
+    <a href="https://videojs.com/html5-video-support/" target="_blank"></a>
+ </video>
+</div>
+
+    <div id="video2">
+            <div id="knoppen" class="afspeelknoppen2">
+                    <div id="vooruitspoelen" class="spoelknop1">
+                        <img src="img/forward btn@2x.png" alt="forward">
+                    </div>
+                    <div id="afspelen" class="playknop">
+                        <img src="img/playbtn@2x.png" alt="play">
+                    </div>
+                   
+                    </div>
+            
+    <video 
+    onclick="onTop()"
+    id="trailer2" 
+    class="video-js"
+    preload="auto"
+    width="530"
+    height="300"
+    poster="img/irishman.jpg"
+    data-setup="{}"
+  >
+  <source src=http://techslides.com/demos/sample-videos/small.mp4 type=video/mp4>
+
+    </video>
+</div>
+<div id="video3">
+        <div id="knoppen" class="afspeelknoppen3">
+                <div id="vooruitspoelen" class="spoelknop2">
+                    <img src="img/forward btn@2x.png" alt="forward">
+                </div>
+                <div id="afspelen" class="playknop">
+                    <img src="img/playbtn@2x.png" alt="play">
+                </div>
+               
+                </div>
+    <video 
+    id="trailer3"
+    class="video-js"
+    preload="auto"
+    width="400"
+    height="300"
+    poster="img/ozark.jpg"
+    data-setup="{}"
+  >
+  <source src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
+               
+    </video>
+   
+    <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
+              
+    </div>
+</div>
+    <div class="clear"></div>
+
+    <p id="maintext">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum.</p>
+    <button class="tryb" id="try">TRY FREE</button>
+    </main>
+    <footer>
+        <div id="footerback">
+                <h3>Choose the plan that’s right for you</h3>
+                <div id="tabs">
+                        <ul>
+                          <li><a href="#tabs-1">Basic</a></li>
+                          <li><a href="#tabs-2">Standard</a></li>
+                          <li><a href="#tabs-3">Premium</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <div class="textleft">
+                            <p>Montly price</p>
+                            <p>Video quality</p>
+                            <p>Resolution</p>
+                            <p>Screens</p>
+                            <p>Unlimited films and TV</p>
+                            <p>Cancel at any time</p>
+                        </div>
+                        <div class="textright">
+                            <p class="rodetext">€8,99</p>
+                            <p class="rodetext">4K</p>
+                            <p class="rodetext">HDR</p>
+                            <p class="rodetext">1</p>
+                            <p class="rodetext">Check</p>
+                            <p class="rodetext">Check</p>
+                        </div>
+                        <button id="pick">PICK THIS PLAN</button>
+                        <p class="downup">DOWNGRADE OR UPGRADE AT ANY TIME</p>
+                        </div>
+                        <div id="tabs-2">
+                                <div id="tabs-1">
+                                        <div class="textleft">
+                                        <p>Montly price</p>
+                                        <p>Video quality</p>
+                                        <p>Resolution</p>
+                                        <p>Screens</p>
+                                        <p>Unlimited films and TV</p>
+                                        <p>Cancel at any time</p>
+                                    </div>
+                                    <div class="textright">
+                                        <p class="rodetext">€10,99</p>
+                                        <p class="rodetext">4K</p>
+                                        <p class="rodetext">4K+HDR</p>
+                                        <p class="rodetext">2</p>
+                                        <p class="rodetext">Check</p>
+                                        <p class="rodetext">Check</p>
+                                    </div>
+                                    <button id="pick">PICK THIS PLAN</button>
+                                    <p class="downup">DOWNGRADE OR UPGRADE AT ANY TIME</p>
+                                    </div>
+                        </div>
+                        <div id="tabs-3">
+                                <div id="tabs-1">
+                                        <div class="textleft">
+                                        <p>Montly price</p>
+                                        <p>Video quality</p>
+                                        <p>Resolution</p>
+                                        <p>Screens</p>
+                                        <p>Unlimited films and TV</p>
+                                        <p>Cancel at any time</p>
+                                    </div>
+                                    <div class="textright">
+                                        <p class="rodetext">€13,99</p>
+                                        <p class="rodetext">4K</p>
+                                        <p class="rodetext">4K+HDR</p>
+                                        <p class="rodetext">4</p>
+                                        <p class="rodetext">Check</p>
+                                        <p class="rodetext">Check</p>
+                                    </div>
+                                    <button id="pick">PICK THIS PLAN</button>
+                                    <p class="downup">DOWNGRADE OR UPGRADE AT ANY TIME</p>
+                                    </div>
+                        </div>
+                      </div>
+                
+        </div>
+        
+    </footer>
+    
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+  
+</body>
+
+</html>

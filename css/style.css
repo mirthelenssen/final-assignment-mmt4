@@ -1,0 +1,986 @@
+.clear {
+    clear: both;
+}
+header {
+    max-width: 100%;
+    height: 675px;
+    background-color: black;
+    display: block;
+}
+.nav {
+    height: 50px;
+    width: 500px;
+    margin-left: 350px;
+}
+nav a  {
+    float: right;
+    margin-left: 80px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 1em;
+}
+.logo {
+    width: 130px;
+    height: 55px;
+    margin-top: -25px;
+    margin-left: 150px;
+    float: left;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+@keyframes example {
+    from {margin-left: -120px;}
+    to {margin-left: 150px;}
+  }
+.logo img {
+    height: 30px;
+    width: 103px;
+}
+.login {
+    width: 100px;
+    float: right;
+    margin-right: 150px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    margin-top: -50px;
+}
+.login p {
+    margin-top: 5px;
+}
+.login img {
+    float: left;
+    margin: 10px;
+    width: 25px;
+    margin-top: 0px;
+    height: 30px;
+}
+.headtext {
+    width: 1227px;
+    height: 593px;
+    float: right;
+    max-width: 100%;
+}
+h1 {
+    color: #ED2517;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7500em;
+    margin-top: 100px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 25px;
+    width: 500px;
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 55px;
+}
+.headtext p {
+    color: #EBEBEB;
+    font-family: Montserrat;
+    width: 352px;
+    height: 125px;
+    line-height: 25px;
+}
+#kijk-trailer{
+    width: 220px;
+    height: 70px;
+    margin-left: 750px;
+    display: block;
+    margin-top: -230px;
+    background-image: url(../img/trailer.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    transform: translate(0%);
+}
+#try {
+    width: 154px;
+    height: 49px;
+    color: white;
+    background-color: #ED2517;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#hero {
+    height: 593px;
+    width: 783px;
+    float: right;
+    margin-top: -415px;
+}
+main {
+    height: 908px;
+    background-color: white;
+}
+.maintext {
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+}
+.maintext p {
+    color: #ED2517;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.7500em;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.maintext h2 {
+    color: black;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 2.5em;
+}
+.modal {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 750px;
+    background-color: black;
+  }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 3em;
+    font-weight: bold;
+  }
+#trailervid {
+    height: 300px;
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 450px;
+}
+.modal-content {
+    height: 600px;
+    width: 100%;
+    z-index: 0;
+}
+.playbuttons {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 150px;
+    z-index: 100;
+    opacity: 1;
+}
+.pause {
+   width: 50px;
+   height: 50px;
+   z-index: 10;
+}
+.forward {
+    width: 20px;
+    height: 20px;
+}
+.afspeelknoppen1 {
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    z-index: 3;
+    margin-top: 150px;
+    margin-left: 260px;
+    opacity: 0;
+}
+.afspeelknoppen2 {
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    z-index: 3;
+    margin-top: -250px;
+    margin-left: -185px;
+    opacity: 0;
+}
+.afspeelknoppen3 {
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    z-index: 3;
+    margin-top: -250px;
+    opacity: 0;
+    margin-left: 650px;
+}
+#vooruitspoelen{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.playknop {
+    width: 70px;
+    height: 70px;
+    margin-top: -45px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+#video1:hover .afspeelknoppen1 {
+    opacity: 1;
+}
+#video2:hover .afspeelknoppen2 {
+    opacity: 1;
+}
+#video3:hover .afspeelknoppen3 {
+    opacity: 1;
+}
+#trailer1{
+    z-index: 2;
+    position: relative;
+    margin-left: -14px;
+}
+#trailer2 {
+    float: left;
+    margin-left: -350px;
+    z-index: 1;
+    margin-top: -350px;
+    position: relative;
+}
+#trailer3 {
+    float: right;   
+    margin-right: -350px;
+    margin-top: -350px;
+    z-index: 0;
+}
+#maintext {
+    color: #4B4B4B;
+    font-family: Montserrat;
+    width: 550px;
+    height: 125px;
+    line-height: 25px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.tryb {
+    margin-left: 640px;
+}
+#footerback {
+    background-color: black;
+    width: 100%;
+    height: 800px;
+    position: absolute;
+}
+h3 {
+    font-size: 2.5em;
+    color: white;
+    width: 800px;
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 55px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#tabs {
+    background-color: black;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+}
+ul li {
+    color: black;
+}
+ul li a {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.7500em;
+    color: white;
+    width: 200px;
+}
+div#tabs .ui-state-active  {
+    background-color: red;
+}
+#tabs-1 {
+    width: 400px;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.textleft {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 0.7500em;
+    margin: 15px;
+    text-align: right;
+    float: left;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.textright {
+    float: right;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-size: 0.7500em;
+    width: 150px;
+    margin: 11px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+#pick {
+    width: 180px;
+    height: 45px;
+    color: white;
+    background-color: #ED2517;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 0.8em;
+    margin-left: 100px;
+}
+.downup {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 0.7500em;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.video-active {
+    z-index: 10;
+}
+@media only screen and (max-width: 600px) {
+    /* For tablets: 600x1024 */
+    header {
+        max-width: 600px;
+        height: 465px;
+    }
+    .logo {
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .nav {
+        width: 100px;
+        height: 40px;
+        float: right;
+        margin-right: 10px;
+    }
+    .login {
+        width: 50px;
+        float: left;
+        margin-left: 30px;
+    }
+    .login p {
+        margin-top: 5px;
+        font-size: 0.3em;
+    }
+    .login img {
+        width: 10px;
+        height:10px;
+    }
+    #hero {
+        height: 300px;
+        max-width: 600px;
+        float: right;
+        margin-top: -305px;
+    }
+    h1 {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 1em;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .headtext p {
+        margin-left: 10px;
+        font-size: 0.9em;
+        margin-top: -40px;
+    }
+    #kijk-trailer {
+        background-image: url(../img/playbtn@2x.png);
+        width: 100px;
+        height: 70px;
+        margin-left: 500px;
+    }
+    #try {
+        width: 85px;
+        height: 25px;
+        font-size: 0.6em;
+        margin-top: -50px;
+    }
+    main {
+        height: 908px;
+        margin-top: 100px;
+    }
+    .maintext h2 {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    .video1 {
+        height: 100px;
+        width: 150px;
+    }
+    main {
+        height: 400px;
+    }
+    #trailer1{
+        width: 300px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    #trailer2 {
+        float: left;
+        margin-left: -250px;
+        margin-top: -200px;
+        position: relative;
+        height: 200px;
+    }
+    #trailer3 {
+        float: right;   
+        margin-right: -150px;
+        margin-top: -200px;
+        z-index: 0;
+        height: 200px;   
+    }
+    #maintext {
+        width: 550px;
+        height: 125px;
+        line-height: 25px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tryb {
+        margin-left: 250px;
+    }
+    #footerback {
+        height: 800px;
+        margin-top: 400px;
+    }
+    h3 {
+        font-size: 1em;
+        margin-left: 150px;
+    }
+    #tabs {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    /* For phone: 375x667 */
+    header {
+        max-width: 600px;
+        height: 465px;
+    }
+    .logo {
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .nav {
+        width: 100px;
+        height: 40px;
+        float: right;
+        margin-right: 10px;
+        font-size: 0.4em;
+    }
+    .login {
+        width: 50px;
+        float: left;
+        margin-left: 30px;
+    }
+    .login p {
+        font-size: 0.3em;
+    }
+    .login img {
+        width: 8px;
+        height:8px;
+        margin-top: 4px;
+    }
+    #hero {
+        height: 250px;
+        max-width: 400px;
+        float: right;
+        margin-top: -305px;
+    }
+    h1 {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 0.7em;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .headtext p {
+        margin-left: 10px;
+        font-size: 0.5em;
+        margin-top: -80px; 
+    }
+    .maintext p {
+        margin-left: 110px;
+        font-size: 0.5em;
+    }
+    #kijk-trailer {
+        background-image: url(../img/playbtn@2x.png);
+        width: 70px;
+        height: 70px;
+        margin-left: 300px;
+    }
+    #try {
+        width: 75px;
+        height: 25px;
+        font-size: 0.5em;
+        margin-top: -80px;
+    }
+    main {
+        height: 908px;
+        margin-top: 100px;
+    }
+    .maintext h2 {
+        margin-top: 10px;
+        font-size: 0.5em;
+        margin-left: -70px;
+    }
+    .video1 {
+        height: 50px;
+        width: 50px;
+    }
+    #trailer1{
+        width: 140px;
+        height: 180px;
+        margin: 0 auto;
+        margin-left: 130px;
+        margin-bottom: -45px;
+    }
+    #trailer2 {
+        height: 170px;
+        margin-left: 50px;
+        width: 130px;
+        margin-top: -130px;
+    }
+    #trailer3 {
+        margin-top: -200px;
+        height: 170px;   
+        width: 130px;
+        float: left;
+        margin-left: 20px;
+        margin-top: -130px;
+    }
+    #maintext {
+        width: 250px;
+       font-size: 0.5em;
+    }
+    .tryb {
+        margin-left: 150px;
+    }
+    #footerback {
+        height: 800px;
+        margin-top: -150px;
+    }
+    h3 {
+        font-size: 0.8em;
+        margin-left: 65px;
+    }
+    #tabs {
+        width: 300px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    .textleft {
+        margin-left: 10px;
+    }
+    .textright {
+        float: left;
+        width: 150px;
+        margin-left: -10px;
+    }
+    #pick {
+        width: 170px;
+        height: 45px;
+        margin-left: -90px;
+        font-size: 0.4em;
+    }
+    .downup {
+        font-size: 0.6500em;
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 375px) { 
+    header {
+        max-width: 100%;
+        height: 675px;
+        background-color: black;
+        display: block;
+    }
+    .nav {
+        height: 50px;
+        width: 500px;
+        margin-left: 350px;
+    }
+    nav a  {
+        float: right;
+        margin-left: 80px;
+        margin-top: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: Montserrat;
+        font-size: 1em;
+    }
+    .logo {
+        width: 130px;
+        height: 55px;
+        margin-top: -25px;
+        margin-left: 150px;
+        float: left;
+        position: relative;
+        animation-name: example;
+        animation-duration: 3s;  
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+    }
+    @keyframes example {
+        from {margin-left: -120px;}
+        to {margin-left: 150px;}
+      }
+    .logo img {
+        height: 30px;
+        width: 103px;
+    }
+    .login {
+        width: 100px;
+        float: right;
+        margin-right: 150px;
+        height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        color: white;
+        margin-top: -50px;
+    }
+    .login p {
+        margin-top: 5px;
+    }
+    .login img {
+        float: left;
+        margin: 10px;
+        width: 25px;
+        margin-top: 0px;
+        height: 30px;
+    }
+    .headtext {
+        width: 1227px;
+        height: 593px;
+        float: right;
+        max-width: 100%;
+    }
+    h1 {
+        color: #ED2517;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.7500em;
+        margin-top: 100px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 2.5em;
+        color: white;
+        margin-top: 25px;
+        width: 500px;
+        height: 150px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 55px;
+    }
+    .headtext p {
+        color: #EBEBEB;
+        font-family: Montserrat;
+        width: 352px;
+        height: 125px;
+        line-height: 25px;
+    }
+    #kijk-trailer{
+        width: 220px;
+        height: 70px;
+        margin-left: 750px;
+        display: block;
+        margin-top: -230px;
+        background-image: url(../img/trailer.png);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+        transform: translate(0%);
+    }
+    #try {
+        width: 154px;
+        height: 49px;
+        color: white;
+        background-color: #ED2517;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+    #hero {
+        height: 593px;
+        width: 783px;
+        float: right;
+        margin-top: -415px;
+    }
+    main {
+        height: 908px;
+        background-color: white;
+    }
+    .maintext {
+        width: 600px;
+        height: 250px;
+        margin: 0 auto;
+    }
+    .maintext p {
+        color: #ED2517;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 0.7500em;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    .maintext h2 {
+        color: black;
+        margin-top: 30px;
+        margin-left: 50px;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .modal {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 750px;
+        background-color: black;
+      }
+    .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 3em;
+        font-weight: bold;
+      }
+    #trailervid {
+        height: 300px;
+        width: 500px;
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+    .modal-content {
+        height: 600px;
+        width: 100%;
+        z-index: 0;
+    }
+    .playbuttons {
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        margin-left: 680px;
+        margin-top: 150px;
+        z-index: 100;
+        opacity: 1;
+    }
+    .pause {
+       width: 50px;
+       height: 50px;
+       z-index: 10;
+    }
+    .forward {
+        width: 20px;
+        height: 20px;
+    }
+    .afspeelknoppen1 {
+        width: 150px;
+        height: 90px;
+        position: absolute;
+        z-index: 3;
+        margin-top: 150px;
+        margin-left: 260px;
+        opacity: 0;
+    }
+    .afspeelknoppen2 {
+        width: 150px;
+        height: 90px;
+        position: absolute;
+        z-index: 3;
+        margin-top: -250px;
+        margin-left: -185px;
+        opacity: 0;
+    }
+    .afspeelknoppen3 {
+        width: 150px;
+        height: 90px;
+        position: absolute;
+        z-index: 3;
+        margin-top: -250px;
+        opacity: 0;
+        margin-left: 650px;
+    }
+    #vooruitspoelen{
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+    .playknop {
+        width: 70px;
+        height: 70px;
+        margin-top: -45px;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: none;
+    }
+    #video1:hover .afspeelknoppen1 {
+        opacity: 1;
+    }
+    #video2:hover .afspeelknoppen2 {
+        opacity: 1;
+    }
+    #video3:hover .afspeelknoppen3 {
+        opacity: 1;
+    }
+    #trailer1{
+        z-index: 2;
+        position: relative;
+        margin-left: -14px;
+    }
+    #trailer2 {
+        float: left;
+        margin-left: -350px;
+        z-index: 1;
+        margin-top: -350px;
+        position: relative;
+    }
+    #trailer3 {
+        float: right;   
+        margin-right: -350px;
+        margin-top: -350px;
+        z-index: 0;
+    }
+    #maintext {
+        color: #4B4B4B;
+        font-family: Montserrat;
+        width: 550px;
+        height: 125px;
+        line-height: 25px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tryb {
+        margin-left: 640px;
+    }
+    #footerback {
+        background-color: black;
+        width: 100%;
+        height: 800px;
+        position: absolute;
+    }
+    h3 {
+        font-size: 2.5em;
+        color: white;
+        width: 800px;
+        height: 150px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        line-height: 55px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    #tabs {
+        background-color: black;
+        width: 700px;
+        height: 500px;
+        margin: 0 auto;
+    }
+    ul li {
+        color: black;
+    }
+    ul li a {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 0.7500em;
+        color: white;
+        width: 200px;
+    }
+    div#tabs .ui-state-active  {
+        background-color: red;
+    }
+    #tabs-1 {
+        width: 400px;
+        height: 375px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .textleft {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 0.7500em;
+        margin: 15px;
+        text-align: right;
+        float: left;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+    .textright {
+        float: right;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        color: red;
+        font-size: 0.7500em;
+        width: 150px;
+        margin: 11px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    #pick {
+        width: 180px;
+        height: 45px;
+        color: white;
+        background-color: #ED2517;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 30px;
+        font-size: 0.8em;
+        margin-left: 100px;
+    }
+    .downup {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 0.7500em;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .video-active {
+        z-index: 10;
+    }
+
+
+
+
+
+
+  }
